@@ -1,7 +1,4 @@
 #!/usr/bin/python
-from datetime import datetime 
-import random
-
 # Exercise 1: reverse the list
 test = ['this' , 'is', 'a', 'sentence', '.']
 
@@ -25,7 +22,7 @@ for word in a_text.split():
 answer_dict = dict(zip(words, counts))
 print(answer_dict)
 
-# Exercise 3: implement a linear serach algorithm
+# Exercise 3: implement a linear search algorithm
 nums_list = [10,23,45,70,11,15]
 nums_list2 = [10,23,45,11,1510,23,70,45,11,15]
 
